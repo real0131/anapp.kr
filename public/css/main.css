@@ -1,8 +1,83 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+body,html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
-a {
-  color: #00B7FF;
+header{
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid #f4f4f4;
+}
+
+#header-contact{
+  width: 170px;
+}
+
+#header-logo-wrapper{
+  width: 170px;
+}
+
+#header-logo{
+  width: 89px;
+  height: 45px;
+}
+
+#user-info{
+  display: -webkit-flex;
+  display: flex;
+  height: 70px;
+  width: 170px;
+  align-items: center;
+}
+
+#profile-img{
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+}
+
+.link{
+  color: black;
+  text-decoration: none;
+}
+
+#user-info-name{
+  height: 70px;
+  padding: 0 15px 0 20px;
+  line-height: 70px;
+}
+
+#user-info-logout{
+  height: 70px;
+  line-height: 70px;
+  font-size: 12px;
+}
+
+nav{
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.nav-menu-cell{
+  display: -webkit-flex;
+  display: flex;
+  width: 180px;
+  justify-content: center;
+  font-size: 21px;
+}
+
+@media (max-width: 1080px){
+
 }

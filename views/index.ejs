@@ -1,13 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <meta charset="utf-8"/>
+    <link rel='stylesheet' href='/css/main.css' />
   </head>
   <body>
-    <form id="vote" action="/vote" method="POST">
-        <input type="text" name="vote">
-        <input type="submit">
-    </form>
+    <header>
+        <div id="header-contact">Contact</div>
+        <div id="header-logo-wrapper"><img src="images/logo_origin.png" id="header-logo" background="hello"></div>
+        <div id="user-info">
+            <img src="" id="profile-img" onerror="this.src='images/profile_error.png'">
+            <div id="user-info-name">신현준</div>
+            <a href="" class="link" id="user-info-logout">로그아웃</a>
+        </div>
+    </header>
+    <nav>
+        <div class="nav-menu-cell">Join us!</div>
+        <div class="nav-menu-cell">소개</div>
+        <div class="nav-menu-cell">수업</div>
+        <div class="nav-menu-cell">프로젝트</div>
+        <div class="nav-menu-cell">게시판</div>
+        <div class="nav-menu-cell">공지사항</div>
+    </nav>
+    <main>
+
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
