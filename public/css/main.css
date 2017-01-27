@@ -70,6 +70,7 @@ nav{
   justify-content: center;
   width: 100%;
   height: 70px;
+  z-index: 100;
   background-color: white;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
@@ -158,6 +159,50 @@ article{
   width: auto;
   height: 205px;
   margin-bottom: 30px;
+}
+#project{
+
+}
+.project-card{
+  position: relative;
+  width: 380px;
+  height: 380px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition-duration: 0.3s;
+}
+.project-card:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transition-duration: 0.3s;
+}
+.project-card:hover > img{
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+  transition-duration: 0.3s;
+}
+.project-card:hover > div{
+  opacity: 1;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.project-card-img{
+  width: 380px;
+  height: 380px;
+  transition-duration: 0.3s;
+}
+.project-card-hover-text{
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+.project-card-title{
+  font-size: 48px;
 }
 #article-awards{
   display: -webkit-flex;
