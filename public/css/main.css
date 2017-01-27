@@ -164,6 +164,36 @@ article{
 .award-year{
   font-size: 64px;
 }
+
+footer{
+    width: 100%;
+    padding: 47px 0 47px 0;
+    background-color: #252525;
+    text-align: center;
+    color: white;
+    font-size: 21px;
+    font-weight: 100;
+}
+#footer-link{
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.footer-image{
+    width: 64px;
+    height: 64px;
+}
+#footer-image-border{
+    background-color: white;
+    width: 4px;
+    height: 100px;
+    margin: 0 20px 0 20px;
+}
 @media (max-width: 1080px){
+
+}
+@media (max-device-width: 480px){
 
 }
