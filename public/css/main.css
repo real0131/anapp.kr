@@ -161,7 +161,10 @@ article{
   margin-bottom: 30px;
 }
 #project{
-
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .project-card{
   position: relative;
