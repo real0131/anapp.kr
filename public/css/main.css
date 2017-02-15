@@ -18,7 +18,9 @@ header{
   align-items: center;
   border-bottom: 2px solid #f4f4f4;
 }
-
+#header-side-nav{
+  display: none;
+}
 #header-contact{
   width: 170px;
 }
@@ -318,6 +320,12 @@ footer{
 }
 @media screen and (max-width: 1080px){
   nav{
+    display: none;
+  }
+  #header-side-nav{
+    display: inline-block;
+  }
+  #header-contact{
     display: none;
   }
 }
