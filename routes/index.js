@@ -5,7 +5,7 @@ var url = require('url');
 var num = 0;
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('main');
 });
 
 module.exports = router;
