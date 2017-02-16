@@ -410,6 +410,9 @@ footer{
 
 }
 @media (max-device-width: 480px){
+  body{
+    overflow-x: hidden; /*TODO:temporary*/
+  }
   .side-nav-table{
     width: 70%;
   }
@@ -430,6 +433,17 @@ footer{
   }
   .classes-content{
     font-size: 1.5em;
+  }
+  .project{
+    overflow-y: scroll;
+  }
+  .project-card{
+    width: 100%;
+    height: auto;
+  }
+  .project-card-img{
+    width: 100%;
+    height: auto;
   }
   .award-year{
     font-size: 2em;
