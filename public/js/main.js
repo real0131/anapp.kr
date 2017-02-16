@@ -1,3 +1,15 @@
+function stopScroll(){
+    $('body').on('scroll touchmove mousewheel', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        return false;
+    });
+}
+
+function startScroll(){
+    $('body').off('scroll touchmove mousewheel');
+}
+
 $('.project-card').click(function () {
     $(this).attr('click','clicked');
 });
@@ -11,8 +23,10 @@ $("#side-menu-btn").click(function () {
     console.log(width);
    $(".side-nav").css({display : '-webkit-flex',display : 'flex', zIndex : '200'});
     //TODO:add animation
+    stopScroll();
 });
 
 $("#side-nav-menu-cancel-btn").click(function () {
     $(".side-nav").css({display : 'none'});
+    startScroll();
 });
