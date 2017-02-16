@@ -20,7 +20,9 @@ header{
   background-color: white;
 }
 #header-side-nav{
+  box-sizing: border-box;
   display: none;
+  padding: 0 20px;
   width: 170px;
 }
 #header-side-nav > i {
@@ -410,5 +412,37 @@ footer{
 @media (max-device-width: 480px){
   .side-nav-table{
     width: 70%;
+  }
+  .article-title{
+    font-size: 2em;
+  }
+  .article-content{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 16px;
+    font-size: 1em;
+  }
+  #intro-border{
+    width: 70%;
+  }
+  .classes > strong{
+    font-size: 2.5em;
+  }
+  .classes-content{
+    font-size: 1.5em;
+  }
+  .award-year{
+    font-size: 2em;
+  }
+  footer{
+    font-size: 1em;
+  }
+  .footer-image{
+    width: 32px;
+    height: 32px;
+  }
+  #footer-image-border{
+    width: 2px;
+    height: 50px;
   }
 }
