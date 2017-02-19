@@ -16,7 +16,7 @@ $('.project-card').click(function () {
         if(!$(".project-card.click")[0]){
             $(this).addClass("click");
         } else {
-            $(".project-card.click")[0].removeClass("click");
+            $(".project-card.click").removeClass("click");
             $(this).addClass("click");
         }
     }else {
