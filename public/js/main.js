@@ -11,11 +11,17 @@ function startScroll(){
 }
 
 $('.project-card').click(function () {
-    $(this).attr('click','clicked');
-});
-
-$(".project-card[click='clicked']").click(function () {
-   $(this).removeAttr('click');
+    //TODO:add mobile bypass
+    if($(this).attr('class') != 'project-card click'){
+        if(!$(".project-card.click")[0]){
+            $(this).addClass("click");
+        } else {
+            $(".project-card.click")[0].removeClass("click");
+            $(this).addClass("click");
+        }
+    }else {
+        $(this).removeClass("click");
+    }
 });
 
 $("#side-menu-btn").click(function () {
