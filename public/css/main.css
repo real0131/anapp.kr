@@ -391,7 +391,7 @@ footer{
 }
 @media (max-device-width: 480px){
   body{
-    overflow-x: hidden; /*TODO:temporary*/
+    /*overflow-x: hidden; /*TODO:temporary*/
   }
   .side-nav-table{
     width: 70%;
@@ -411,11 +411,14 @@ footer{
   .classes > strong{
     font-size: 2.5em;
   }
-  .classes-content{
+  .classes-content {
     font-size: 1.5em;
   }
-  .project{
-    overflow-y: scroll;
+  #project{
+    flex-direction: row;
+    width: 100%;
+    overflow-y:scroll;
+    height: auto;
   }
   .project-card{
     width: 100%;
