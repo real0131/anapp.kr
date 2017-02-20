@@ -46,7 +46,7 @@ header{
 #user-info{
   display: -webkit-flex;
   display: flex;
-  height: 70px;
+  height: 100%;
   width: 170px;
   align-items: center;
 }
@@ -392,6 +392,9 @@ footer{
 @media (max-device-width: 480px){
   body{
     /*overflow-x: hidden; /*TODO:temporary*/
+  }
+  header{
+    height: 50px;
   }
   .side-nav-table{
     width: 70%;
