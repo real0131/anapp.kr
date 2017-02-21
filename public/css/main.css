@@ -137,12 +137,15 @@ nav{
   cursor: pointer;
 }
 .side-nav-menu-cell{
+  display: inline-block;
   box-sizing: border-box;
   width: 100%;
   height: 48px;
   line-height: 48px;
   text-align: center;
   transition-duration: 0.3s;
+  text-decoration: none;
+  color: black;
 }
 .side-nav-menu-cell:hover{
   background-color: #e5e5e5;
