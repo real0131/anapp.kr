@@ -474,7 +474,7 @@ footer{
     width: 70%;
   }
   .carousel-button{
-    display: none;
+    padding: 0 5px;
   }
   .carousel-title{
     font-size: 36px;
