@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a56305d-147b-4664-8056-f6072396cda8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/488p_logo_new.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/main.ejs" afterPath="$PROJECT_DIR$/views/main.ejs" />
     </list>
@@ -29,7 +30,7 @@
             <entry file="file://$PROJECT_DIR$/views/main.ejs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="171">
-                  <caret line="9" column="85" lean-forward="true" selection-start-line="9" selection-start-column="85" selection-end-line="9" selection-end-column="85" />
+                  <caret line="9" column="62" lean-forward="false" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
                   <folding />
                 </state>
               </provider>
@@ -149,8 +150,8 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-4780">
-                  <caret line="213" column="18" lean-forward="false" selection-start-line="213" selection-start-column="18" selection-end-line="213" selection-end-column="18" />
+                <state relative-caret-position="46">
+                  <caret line="467" column="3" lean-forward="true" selection-start-line="467" selection-start-column="3" selection-end-line="467" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -506,12 +507,12 @@
       <workItem from="1487232787071" duration="1575000" />
       <workItem from="1487412532468" duration="1522000" />
       <workItem from="1487502941214" duration="1538000" />
-      <workItem from="1487504585053" duration="12154000" />
+      <workItem from="1487504585053" duration="12728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78559000" />
+    <option name="totallyTimeSpent" value="79133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -872,8 +873,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4780">
-          <caret line="213" column="18" lean-forward="false" selection-start-line="213" selection-start-column="18" selection-end-line="213" selection-end-column="18" />
+        <state relative-caret-position="46">
+          <caret line="467" column="3" lean-forward="true" selection-start-line="467" selection-start-column="3" selection-end-line="467" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -881,7 +882,7 @@
     <entry file="file://$PROJECT_DIR$/views/main.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="85" lean-forward="true" selection-start-line="9" selection-start-column="85" selection-end-line="9" selection-end-column="85" />
+          <caret line="9" column="62" lean-forward="false" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
           <folding />
         </state>
       </provider>
