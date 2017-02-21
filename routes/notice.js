@@ -4,7 +4,7 @@ var router = express.Router();
 var url = require('url');
 
 router.get('/', function(req, res, next) {
-    res.render('admin');
+    res.render('notice');
 });
 
 module.exports = router;

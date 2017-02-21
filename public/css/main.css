@@ -98,6 +98,8 @@ nav{
   font-size: 1.25em;
   font-weight: 300;
   transition-duration: 0.3s;
+  color: black;
+  text-decoration: none;
 }
 .nav-menu-cell:hover{
   background-color: #f5f5f5;
