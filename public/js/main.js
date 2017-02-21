@@ -40,10 +40,13 @@ $("#side-nav-menu-cancel-btn").click(function () {
 $(".carousel-button.left").click(function () {
     var active = $(".item.active").index(".item");
     $(".item.active").removeClass("active");
+    $(".indicator-item.active").removeClass("active");
     if(active != 0){
         $(".item:nth-child("+ (active) +")").addClass("active");
+        $(".indicator-item:nth-child("+ (active) +")").addClass("active");
     }else {
         $(".item:nth-last-child(1)").addClass("active");
+        $(".indicator-item:nth-last-child(1)").addClass("active");
     }
 });
 
@@ -51,10 +54,13 @@ $(".carousel-button.right").click(function () {
     var active = $(".item.active").index(".item");
     var lastIndex = $(".item:nth-last-child(1)").index(".item");
     $(".item.active").removeClass("active");
+    $(".indicator-item.active").removeClass("active");
     if(active != lastIndex){
         active +=2;
         $(".item:nth-child("+ (active) +")").addClass("active");
+        $(".indicator-item:nth-child("+ (active) +")").addClass("active");
     }else {
         $(".item:nth-child(1)").addClass("active");
+        $(".indicator-item:nth-child(1)").addClass("active");
     }
 });
