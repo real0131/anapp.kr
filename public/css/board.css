@@ -29,6 +29,15 @@ h3.board-info::before{
 
 @media screen and (max-device-width: 480px){
     article.board-article{
-
+        box-sizing: border-box;
+        width: 100%;
+        margin: 10px auto;
     }
+    h1.board-title{
+        font-size: 1.2rem;
+    }
+    h3.board-info{
+        font-size: 1rem;
+    }
+
 }

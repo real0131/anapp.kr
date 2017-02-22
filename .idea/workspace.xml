@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1a56305d-147b-4664-8056-f6072396cda8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/board.css" afterPath="$PROJECT_DIR$/public/css/board.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/board.ejs" afterPath="$PROJECT_DIR$/views/board.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/notice.ejs" afterPath="$PROJECT_DIR$/views/notice.ejs" />
     </list>
     <ignored path="untitled9.iws" />
@@ -35,11 +37,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="board.ejs" pinned="false" current-in-tab="false">
+          <file leaf-file-name="board.ejs" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/views/board.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="247">
-                  <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="51" />
+                <state relative-caret-position="441">
+                  <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
                   <folding />
                 </state>
               </provider>
@@ -85,11 +87,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="notice.ejs" pinned="false" current-in-tab="true">
+          <file leaf-file-name="notice.ejs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/notice.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="512">
-                  <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+                <state relative-caret-position="422">
+                  <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -139,20 +141,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="board.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="board.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/css/board.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="76">
-                  <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+                <state relative-caret-position="474">
+                  <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1178">
+                <state relative-caret-position="551">
                   <caret line="65" column="3" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
                   <folding />
                 </state>
@@ -245,8 +247,8 @@
         <option value="$PROJECT_DIR$/views/footer.ejs" />
         <option value="$PROJECT_DIR$/views/main.ejs" />
         <option value="$PROJECT_DIR$/public/css/board.css" />
-        <option value="$PROJECT_DIR$/views/board.ejs" />
         <option value="$PROJECT_DIR$/views/notice.ejs" />
+        <option value="$PROJECT_DIR$/views/board.ejs" />
       </list>
     </option>
   </component>
@@ -536,12 +538,12 @@
       <workItem from="1487701940621" duration="2970000" />
       <workItem from="1487705690675" duration="1336000" />
       <workItem from="1487775421765" duration="932000" />
-      <workItem from="1487786289618" duration="2727000" />
+      <workItem from="1487786289618" duration="3384000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87888000" />
+    <option name="totallyTimeSpent" value="88545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -819,14 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="65" column="3" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/admin.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -885,24 +879,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/board.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        <state relative-caret-position="474">
+          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/board.ejs">
+    <entry file="file://$PROJECT_DIR$/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="51" />
+        <state relative-caret-position="551">
+          <caret line="65" column="3" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/notice.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        <state relative-caret-position="422">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/board.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
           <folding />
         </state>
       </provider>
