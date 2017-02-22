@@ -13,36 +13,8 @@
     <link rel='stylesheet' href='/css/main.css' />
   </head>
   <body>
-    <header>
-        <div id="header-side-nav"><i class="fa fa-bars" aria-hidden="true" id="side-menu-btn"></i></div>
-        <div id="header-contact">Contact</div>
-        <div id="header-logo-wrapper"><img src="images/svg/ana_origin.svg" id="header-logo" background="hello"></img></div>
-        <div id="user-info">
-
-        </div>
-        <!--
-        <div id="user-info">
-            <img src="" id="profile-img" onerror="this.src='images/profile_error.png'">
-            <div id="user-info-name">신현준</div>
-            <a href="" class="link" id="user-info-logout">로그아웃</a>
-        </div>-->
-    </header>
-    <nav role="navigation">
-        <a href="#" class="nav-menu-cell">Join us!</a>
-        <a href="#" class="nav-menu-cell">소개</a>
-        <a href="#" class="nav-menu-cell">수업</a>
-        <a href="#" class="nav-menu-cell">프로젝트</a>
-        <a href="/board" class="nav-menu-cell">게시판</a>
-        <a href="/notice" class="nav-menu-cell">공지사항</a>
-    </nav>
-    <div class="side-nav" role="navigation">
-        <div class="side-nav-table">
-            <div class="side-nav-menu-cancel"><i class="fa fa-angle-left" aria-hidden="true" id="side-nav-menu-cancel-btn"></i></div>
-            <a href="#" class="side-nav-menu-cell">Join us!</a>
-            <a href="/board" class="side-nav-menu-cell">게시판</a>
-            <a href="/notice" class="side-nav-menu-cell">공지사항</a>
-        </div>
-    </div>
+  <%- include header.ejs %>
+  <%- include nav.ejs %>
     <main role="main">
         <div class="carousel">
             <!--control-->
@@ -69,7 +41,7 @@
                 <li class="indicator-item"></li>
             </ul>
         </div>
-        <article>
+        <article class="main-article">
             <div class="article-title">What is <strong>AnA</strong>?</div>
             <img src="images/svg/ana_new.svg" alt="ana-logo" class="intro-logo" id="intro-logo-new">
             <img src="images/svg/ana_origin.svg" alt="ana-logo" class="intro-logo" id="intro-logo-origin">
@@ -78,7 +50,7 @@
                 끝까지 눈에 보이는 것이다. 피어나는 있는 안고, 못할 열락의 아니더면, 아니다. 싸인 피에 우는 있는 얼마나 뿐이다. 우리는 얼마나 평화스러운 용기가 이 피가 그것을 이상은 사막이다. 가슴에 긴지라 이 고동을 불어 봄바람을 내려온 있다. 심장의 군영과 보배를 원대하고, 커다란 눈이 아니다. 발휘하기 청춘에서만 든 갑 그것을 위하여 그러므로 이것이다.
             </div>
         </article>
-        <article>
+        <article class="main-article">
             <div class="article-title">Classes</div>
             <div class="article-content" id="article-classes">
                 <div class="classes-wrapper">
@@ -115,7 +87,7 @@
                 </div>
             </div>
         </article>
-        <article>
+        <article class="main-article">
             <div class="article-title">프로젝트</div>
                 <div id="project">
                     <div class="project-card">
@@ -175,7 +147,7 @@
                     </div>
                 </div>
         </article>
-        <article>
+        <article class="main-article">
             <div class="article-title">수상실적</div>
             <div class="article-content" id="article-awards">
                 <div class="award">
@@ -211,19 +183,7 @@
                 </div>
             </div>
         </article>
-        <footer>
-            <div id="footer-link">
-                <a href="https://www.facebook.com/sunrinana/">
-                    <img src="images/svg/fb.svg" alt="facebook" class="footer-image">
-                </a>
-                <div id="footer-image-border"></div>
-                <a href="https://github.com/sunrinana">
-                    <img src="images/svg/github.svg" alt="github" class="footer-image">
-                </a>
-            </div>
-            <div>© 2017 Android & Application.</div>
-            <div>contact us at <address>sunrinana@gmail.com</address></div>
-        </footer>
+    <%- include footer.ejs %>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
