@@ -6,7 +6,7 @@
 
 var app = require('../app');
 var debug = require('debug')('untitled9:server');
-var http2 = require('http2');
+var spdy = require('spdy');
 var fs = require('fs');
 
 var privateKey = fs.readFileSync('../key/privkey.pem');
@@ -23,7 +23,7 @@ app.set('port', port);
  * Create HTTP server.
  */
 
-var server = http2.createServer({
+var server = spdy.createServer({
   key: privateKey,
   cert: certificate
 },app);
