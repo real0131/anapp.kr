@@ -7,4 +7,7 @@ router.get('/', function(req, res, next) {
     res.render('admin', { title: 'Express' });
 });
 
+router.post('/login', function (req,res){
+    res.status(200).end('hello');
+});
 module.exports = router;
