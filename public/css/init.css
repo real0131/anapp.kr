@@ -1,0 +1,9 @@
+body,html {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Noto Sans Korean', sans-serif;
+}
