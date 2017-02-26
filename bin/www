@@ -9,8 +9,8 @@ var debug = require('debug')('untitled9:server');
 var spdy = require('spdy');
 var fs = require('fs');
 
-var privateKey = fs.readFileSync('../key/privkey.pem');
-var certificate = fs.readFileSync('../key/cert.pem');
+var privateKey = fs.readFileSync('key/privkey.pem');
+var certificate = fs.readFileSync('key/cert.pem');
 
 /**
  * Get port from environment and store in Express.

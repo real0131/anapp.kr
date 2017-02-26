@@ -42,7 +42,9 @@ header{
   width: 89px;
   height: 45px;
 }
-
+#header-logo:hover{
+  cursor: pointer;
+}
 #user-info{
   display: -webkit-flex;
   display: flex;
