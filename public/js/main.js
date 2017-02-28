@@ -28,6 +28,7 @@ $("#side-menu-btn").click(function () {
    var width = $('.side-nav-table').width();
     console.log(width);
    $(".side-nav").css({display : '-webkit-flex',display : 'flex', zIndex : '200'});
+   $(".side-nav-table").css({"transform" : "translate(-100%,0px)"}).animate({"transform":"translate(100%,0px)"},300);
     //TODO:add animation
     stopScroll();
 });
