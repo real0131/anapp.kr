@@ -128,13 +128,13 @@ nav{
 }
 .side-nav-menu-cancel{
   box-sizing: border-box;
-  padding: 0 10px;
   display: -webkit-flex;
   display: flex;
   justify-content: flex-end;
   width: 100%;
 }
 .side-nav-menu-cancel > i{
+  padding: 0 15px;
   font-size: 2em;
   cursor: pointer;
 }

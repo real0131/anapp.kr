@@ -26,15 +26,19 @@ $('.project-card').click(function () {
 
 $("#side-menu-btn").click(function () {
    var width = $('.side-nav-table').width();
-    console.log(width);
    $(".side-nav").css({display : '-webkit-flex',display : 'flex', zIndex : '200'});
-   $(".side-nav-table").css({"transform" : "translate(-100%,0px)"}).animate({"transform":"translate(100%,0px)"},300);
-    //TODO:add animation
+   $(".side-nav-table")
+       .css({position : "fixed", left : (-1 * width)+"%" })
+       .animate({"left": "0%"},400);
+    //TODO:add animation0
     stopScroll();
 });
 
 $("#side-nav-menu-cancel-btn").click(function () {
-    $(".side-nav").css({display : 'none'});
+    var width = $('.side-nav-table').width();
+    $(".side-nav-table").animate({"left": (-1 * width)+"%"},400,function () {
+        $(".side-nav").css({display : 'none'});
+    });
     startScroll();
 });
 
