@@ -154,6 +154,27 @@ nav{
   cursor: pointer;
   transition-duration: 0.3s;
 }
+.btn{
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 36px;
+  border: 1px solid white;
+  border-radius: 5px;
+  transition-duration: 0.3s;
+}
+a.btn{
+  text-decoration: none;
+  color: white;
+}
+.btn:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
 /*carousel*/
 .carousel{
   background-color: black; /*TODO:temp*/
@@ -194,6 +215,8 @@ a.carousel-button{
 }
 .item{
   position: absolute;
+  top: 0;
+  left: 0;
   box-sizing: border-box;
   display: none;
   width: 100%;
@@ -213,6 +236,16 @@ a.carousel-button{
 .item > .carousel-background-image{
   z-index: 0 !important;
 }
+
+.item-anim.right{
+  left: -100% !important;
+  transition-duration: 0.5s;
+}
+.item-anim.left{
+  left: 100% !important;
+  transition-duration: 0.5s;
+}
+
 .carousel-background-image{
   position: absolute;
   top: 0;
@@ -222,6 +255,7 @@ a.carousel-button{
 }
 .carousel-title{
   font-size: 48px;
+  margin-bottom: 10px;
 }
 .carousel-author{
   font-size: 24px;
