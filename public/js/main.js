@@ -10,6 +10,44 @@ function startScroll(){
     $('body').off('scroll touchmove mousewheel');
 }
 
+function carouselTransition(direction,target){
+    var index = target.index(".item");
+    var lastIndex = $(".item:nth-last-child(1)").index(".item");
+    var width = target.width();
+    console.log(index);
+    if (direction =="left"){
+        //render previous item at target's left position
+        //if the target's index is first render last item
+        //translate +100%
+        //change active status
+        //change carousel-indicator
+        if(index != 0){
+            $(".item:nth-child("+(index-1)+")")
+                .css({left: "-100%"})
+                .addClass("active");
+            $(".item:nth-child("+(index-1)+"), .item:nth-child("+(index)+")")
+                .animate({transform: "translate(100%,0px)"},500,function () {
+                    $(".item:nth-child("+(index)+")").removeClass("active");
+            });
+
+        }else{
+            $(".item:nth-last-child(1)")
+                .css({left: "-100%"})
+                .addClass("active");
+            $(".item:nth-last-child(1), .item:nth-child("+(index)+")")
+                .animate({transform: "translate(100%,0px)"},500,function () {
+                    $(".item:nth-child("+(index)+")").removeClass("active");
+                });
+        }
+    }else if (direction =="right"){
+        if(index != lastIndex){}
+        //render next item at target's right position
+        //if the target's index is last render first item
+        //position left -100
+        //change carousel-indicator
+    }
+}
+
 $('.project-card').click(function () {
     //TODO:add mobile bypass
     if($(this).attr('class') != 'project-card click'){
@@ -44,6 +82,7 @@ $("#side-nav-menu-cancel-btn").click(function () {
 
 $(".carousel-button.left").click(function () {
     var active = $(".item.active").index(".item");
+    console.log(active);
     $(".item.active").removeClass("active");
     $(".indicator-item.active").removeClass("active");
     if(active != 0){
@@ -74,14 +113,17 @@ $(".carousel-button.right").click(function () {
 $(document).ready(function(){
     $('a[href^="#"]').on('click',function (e) {
         e.preventDefault();
-
         var target = this.hash,
             $target = $(target);
-
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top
-        }, 900, 'swing', function () {
-            window.location.hash = target;
-        });
+        //if target is not main-article function return false
+        if($target.attr("class") == "main-article"){
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top
+            }, 900, 'swing', function () {
+                window.location.hash = target;
+            });
+        } else{
+            return false;
+        }
     });
 });
