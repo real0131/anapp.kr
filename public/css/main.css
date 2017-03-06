@@ -532,7 +532,10 @@ footer{
     /*overflow-x: hidden; /*TODO:temporary*/
   }
   header{
-    height: 50px;
+    height: 45px;
+  }
+  #header-logo-wrapper{
+    height: 45px;
   }
   .side-nav-table{
     width: 70%;
