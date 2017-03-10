@@ -333,7 +333,7 @@ article.main-article{
   justify-content: center;
 }
 #article-classes > div{
-  width: 500px;
+  width: 280px;
 }
 .classes-wrapper{
   display: -webkit-flex;
@@ -343,7 +343,7 @@ article.main-article{
   margin: 0 30px;
 }
 .classes{
-  margin: 0 30px 50px 30px;
+  margin: 0 15px 50px 15px;
 }
 .classes-content{
   word-wrap: break-word;
@@ -522,6 +522,11 @@ footer{
 @media screen and (min-width: 1541px) and (max-width: 1920px) {
   #project{
     width: 1520px;
+  }
+}
+@media screen and (max-width: 1567px){
+  #article-classes > div{
+    width: 450px;
   }
 }
 @media screen and (min-width: 1921px){
