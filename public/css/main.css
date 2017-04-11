@@ -345,9 +345,13 @@ article.main-article{
 .classes{
   margin: 0 15px 50px 15px;
 }
+.classes > strong {
+  font-size: 36px;
+}
 .classes-content{
   word-wrap: break-word;
   word-break: keep-all;
+  font-size: 28px;
   font-weight: 300;
 }
 .article-classes-img{
